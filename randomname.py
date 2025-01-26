@@ -13,7 +13,7 @@ import shutil
 import uuid  # For generating random names
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate(r"emergency-help-c6266-firebase-adminsdk-mq841-99fe6e3010.json")
+cred = credentials.Certificate(r"/root/my_flask_project/emergency-help-c6266-firebase-adminsdk-mq841-99fe6e3010.json")
 firebase_admin.initialize_app(cred, {
     "storageBucket": "emergency-help-c6266.appspot.com"
 })
